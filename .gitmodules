@@ -1,3 +1,9 @@
 [submodule "datasets/TSpec-LLM"]
 	path = datasets/TSpec-LLM
 	url = git@hf.co:datasets/rasoul-nikbakht/TSpec-LLM
+[submodule "datasets/TeleQnA"]
+	path = datasets/TeleQnA
+	url = git@hf.co:datasets/netop/TeleQnA
+[submodule "datasets/Telco-RAG"]
+	path = datasets/Telco-RAG
+	url = git@github.com:netop-team/Telco-RAG.git
