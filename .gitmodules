@@ -1,0 +1,3 @@
+[submodule "datasets/TSpec-LLM"]
+	path = datasets/TSpec-LLM
+	url = git@hf.co:datasets/rasoul-nikbakht/TSpec-LLM
