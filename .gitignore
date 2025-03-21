@@ -178,3 +178,4 @@ cython_debug/
 
 # repository
 files/
+unsloth_compiled_cache/

@@ -39,3 +39,37 @@ sudo cp nccl_2.26.2-1+cuda12.4_x86_64/bin/* /usr/local/cuda-12.6/bin/
 sudo cp nccl_2.26.2-1+cuda12.4_x86_64/include/* /usr/local/cuda-12.6/include/
 sudo cp nccl_2.26.2-1+cuda12.4_x86_64/lib/* /usr/local/cuda-12.6/lib64/
 ```
+
+## Other libraries
+
+We are using Python 3.12.9. And asdf to manage our versions.
+
+Before install Python via asdf it is necessary to run command below to install all dev dependencies:
+```
+sudo dnf install gcc zlib-devel bzip2 bzip2-devel readline-devel sqlite sqlite-devel openssl-devel tk-devel libffi-devel xz-devel ncurses ncurses-devel
+```
+
+Command to create our venv:
+```
+python3 -m venv .venv
+
+source .venv/bin/activate
+```
+
+After activate our venv, we install these libraries:
+
+**Jupyter notebook**:
+```
+pip3 install notebook
+```
+
+**Torch**: \
+Don't install torch with this command, just use the bellow command of unsloth that already install the right version of torch.
+```
+pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu124
+```
+
+**Unsloth**:
+```
+pip3 install "unsloth[cu124-torch250] @ git+https://github.com/unslothai/unsloth.git"
+```
