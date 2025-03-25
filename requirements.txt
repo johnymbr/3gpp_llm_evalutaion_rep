@@ -39,6 +39,7 @@ idna==3.10
 ipykernel==6.29.5
 ipython==9.0.2
 ipython_pygments_lexers==1.1.1
+ipywidgets==8.1.5
 isoduration==20.11.0
 jedi==0.19.2
 Jinja2==3.1.6
@@ -55,6 +56,7 @@ jupyter_server_terminals==0.5.3
 jupyterlab==4.3.6
 jupyterlab_pygments==0.3.0
 jupyterlab_server==2.27.3
+jupyterlab_widgets==3.0.13
 markdown-it-py==3.0.0
 MarkupSafe==3.0.2
 matplotlib-inline==0.1.7
@@ -132,7 +134,7 @@ torch==2.5.0
 tornado==6.4.2
 tqdm==4.67.1
 traitlets==5.14.3
-transformers==4.50.0
+transformers==4.49.0
 triton==3.1.0
 trl==0.15.2
 typeguard==4.4.2
@@ -149,6 +151,7 @@ webcolors==24.11.1
 webencodings==0.5.1
 websocket-client==1.8.0
 wheel==0.45.1
+widgetsnbextension==4.0.13
 xformers @ https://download.pytorch.org/whl/cu124/xformers-0.0.28.post2-cp312-cp312-manylinux_2_28_x86_64.whl#sha256=6e255c94b3471a46af444917fbc1f3306dcc6d1ae064825913e58676a8f3f5fc
 xxhash==3.5.0
 yarl==1.18.3
