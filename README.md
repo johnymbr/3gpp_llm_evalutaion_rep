@@ -73,3 +73,8 @@ pip3 install torch torchvision torchaudio --index-url https://download.pytorch.o
 ```
 pip3 install "unsloth[cu124-torch250] @ git+https://github.com/unslothai/unsloth.git"
 ```
+
+**Faiss**:
+```
+pip install faiss-gpu-cu12
+```
